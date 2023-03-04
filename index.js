@@ -54,7 +54,7 @@ function renderPosts() {
                 </div>
             </header>
             <section>
-                <img class="post-picture" src="${post.post}" alt="${post.postDescription}">
+                <img class="post-picture" src="${post.post}" alt="${post.postDescription}" ondblclick="likePost(${i})">
                 <div class="post-content">
                     <div class="post-interactions">
                         <img class="post-interaction-icon" src="${post.hasLiked ? "images/icon-red-heart.png" : "images/icon-heart.png"}" alt="heart icon" onclick="likePost(${i})">
