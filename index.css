@@ -91,6 +91,18 @@ h4 {
   margin-right: 10px;
 }
 
+.post-interaction-icon:hover,
+.post-interaction-icon:focus {
+  transition: 0.5s;
+  opacity: 0.5;
+  transform: scale(1.2);
+}
+
+.post-interaction-icon:not(:hover),
+.post-interaction-icon:not(:focus) {
+  transition: 0.5s;
+}
+
 .post-likes {
   margin-top: 5px;
   margin-bottom: 12px;
