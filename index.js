@@ -62,7 +62,7 @@ function renderPosts() {
                         <img class="post-interaction-icon" src="images/icon-dm.png" alt="paper aeroplane icon">
                     </div>
                     <p class="post-likes bold-text">${post.likes.toLocaleString()} likes</p>
-                    <p class="post-comment"><span class="bold-text">${post.username}</span> just took a few mushrooms lol</p>
+                    <p class="post-comment"><span class="bold-text">${post.username}</span> ${post.comment}</p>
                 </div>
             </section>
         </div>
