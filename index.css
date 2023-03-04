@@ -7,7 +7,19 @@ html, body {
   background: #EDEDED;
 }
 
-.container, #post {
+h4 {
+  font-size: 14px;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.container, .post {
   background: #FFFFFF;
 }
 
@@ -33,19 +45,20 @@ html, body {
   border-bottom: 1px solid #C6C6C6;
 }
 
-#post {
+.post {
   width: 375px;
   margin: 0 auto;
+  margin-bottom: 25px;
 }
 
-#post-header {
+.post-header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   height: 55px;
 }
 
-#posted-by-avatar {
+.posted-by-avatar {
   width: 34px;
   height: 34px;
   margin-left: 10px;
@@ -53,12 +66,12 @@ html, body {
   border-radius: 50%;
 }
 
-#posted-by-username {
+.posted-by-username {
   margin-top: 12px;
   margin-bottom: 0px;
 }
 
-#posted-by-location {
+.posted-by-location {
   margin-top: 0px;
 }
 
@@ -72,33 +85,18 @@ html, body {
   margin-bottom: 15px;
 }
 
-.post-interactions {
-}
-
 .post-interaction-icon {
   width: 24px;
   height: 24px;
   margin-right: 10px;
 }
 
-h4 {
-  font-size: 14px;
-}
-
-.small-text {
-  font-size: 12px;
-}
-
-.bold-text {
-  font-weight: 700;
-}
-
-#post-likes {
+.post-likes {
   margin-top: 5px;
   margin-bottom: 12px;
 }
 
-#post-comment {
+.post-comment {
   margin-top: 0px;
   padding-bottom: 20px;
 }
